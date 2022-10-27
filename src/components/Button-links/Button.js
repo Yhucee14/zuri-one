@@ -9,7 +9,7 @@ const Button = () => {
         <a href='http://books.zuri.team/' id='books'>Zuri Team</a>
         <a href='#'>Zuri Books </a>
         <a href='#'>Python Books</a>
-        <a href='#'>Background Check For Coders</a>
+        <a href='#'>Background Check for Coders</a>
         <a href='#'>Design Books </a>
          
     </div>
