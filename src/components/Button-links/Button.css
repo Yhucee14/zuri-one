@@ -1,0 +1,33 @@
+#btn_zuri {
+    background: rgb(233, 26, 26);
+    color: black;
+    text-align: center;
+    width: 100%;
+}
+
+.btn-cont{
+    width: 100vw;
+    text-align: center;
+    display: block;
+    
+    
+}
+
+.btn-cont a{
+    width: 100vw;
+    text-align: center;
+    display: block;
+    color: black;
+    font-weight: 480;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    background: rgba(168, 163, 163, 0.13);
+    border: 0.5px solid rgb(197, 196, 196);
+    text-decoration: none;
+}
+
+.btn-cont a:hover {
+    background: rgba(67, 67, 70, 0.336);
+    color: black;
+}
