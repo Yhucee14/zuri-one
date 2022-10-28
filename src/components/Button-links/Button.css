@@ -1,20 +1,9 @@
-#btn_zuri {
-    background: rgb(233, 26, 26);
-    color: black;
-    text-align: center;
-    width: 100%;
-}
-
 .btn-cont{
-    width: 100vw;
     text-align: center;
-    display: block;
-    
-    
+    display: block;   
 }
 
-.btn-cont a{
-    width: 100vw;
+.btn-cont a{ 
     text-align: center;
     display: block;
     color: black;

@@ -1,0 +1,11 @@
+#logo-img {
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 4px;
+}
+
+.Logo{
+    margin-top: 25px;
+    text-align: center;
+}
