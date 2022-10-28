@@ -11,8 +11,9 @@ import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-    <div className='container'>
-
+    <main className='container'>
+      <div className='inner-cont' >
+        
       <Profile />
       <Button />
       <Logo />
@@ -21,9 +22,10 @@ function App() {
       <div className='menu-icons'>
         <BiDotsHorizontalRounded  size={20} color='grey' id='dot'/>
       </div>
+      </div>
       
 
-    </div>
+    </main>
   );
 }
 

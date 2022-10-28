@@ -11,12 +11,24 @@
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 6px;
-    background: rgba(168, 163, 163, 0.13);
-    border: 0.5px solid rgb(197, 196, 196);
+    background: rgba(168, 163, 163, 0.199);
+    border: 0.2px solid rgba(197, 196, 196, 0.151);
     text-decoration: none;
 }
 
 .btn-cont a:hover {
     background: rgba(67, 67, 70, 0.336);
     color: black;
+}
+
+@media screen and (max-width: 950px) {
+.btn-cont a{
+    padding-bottom: 20px;  
+    }
+}
+
+.btn-cont a:hover {
+    background: #43434656;
+    color: black;
+    border: 0.5px solid #525151b2;
 }

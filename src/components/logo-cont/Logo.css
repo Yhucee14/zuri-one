@@ -9,3 +9,9 @@
     margin-top: 25px;
     text-align: center;
 }
+
+@media screen and (max-width: 950px) {
+    .Logo {
+        display: none;
+    }
+}

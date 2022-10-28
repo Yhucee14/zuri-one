@@ -7,26 +7,35 @@
     width: 5%;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 650px) {
+.logo {
+    display: none;
+}
 
 .container{
-        padding: 90px;
-        border: 1px solid #8080806b;
+    padding: 85px;
+    background: #bbb9b91e;
+    }
+
+.inner-cont{
+    background: #ffffffa4;
+    padding: 18px;
+    border: 1px solid #a8a3a327;
+    border-radius: 7px;
     }
 
 .menu-icons {
     display: block;
-    border: 1px solid #a8a3a33b;
+    border: 1px solid #a8a3a327;
     border-radius: 50%;
     position: absolute;
-    left: 85%;
-    top: 5%;
+    left: 72%;
+    top: 15%;
     padding: 2px;
-    
     }
 
 #dot {
-    margin-left: 5px;
+    margin-left: 1px;
 }
 
 }
