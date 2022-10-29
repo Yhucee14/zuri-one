@@ -12,6 +12,6 @@
 
 @media screen and (max-width: 950px) {
     .Logo {
-        display: none;
+        /* display: none; */
     }
 }

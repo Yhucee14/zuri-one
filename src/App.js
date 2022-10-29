@@ -1,6 +1,6 @@
 import React from 'react'
 import {BiDotsHorizontalRounded} from "react-icons/bi";
-// import {BiDotsHorizontalRounded} from "react-icons/bi";
+import {RiShareForwardLine} from "react-icons/ri";
 import Profile from './components/profile-section/Profile-s';
 import './App.css';
 import Button from './components/Button-links/Button';
@@ -22,6 +22,10 @@ function App() {
       <div className='menu-icons'>
         <BiDotsHorizontalRounded  size={20} color='grey' id='dot'/>
       </div>
+
+     <div className='menu'>
+      <RiShareForwardLine size={20} color='grey'/>
+     </div>
       </div>
       
 

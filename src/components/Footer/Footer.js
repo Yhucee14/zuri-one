@@ -1,22 +1,22 @@
 import React from 'react'
 import './Footer.css';
-import Office from '../assets/Office.jpg'
+import map from '../assets/map.jpg'
 
 const Footer = () => {
   return (
     <div className='footer'>
-         <div id='left'>
-        <a href='#'>Zuri.Internship</a>
-        </div>
+         <h4 id='left'>
+        <a href='#'>Zuri<b className='col'>.</b>Internship</a>
+        </h4>
 
-        <div id='center'>
-        <a href='#'>HNG Internship 9 Frontend Task</a>
-        </div>
+        <h6 id='center'>
+        <a href='#'><b className='light'>HNG Internship 9 Frontend Task</b></a>
+        </h6>
 
-        <div id='right'> 
-        <img src={Office} alt='any' id='logo-img' />
+        <h5 id='right'> 
+        <img src={map} alt='any' id='logo-img' />
         <a href='#'>INGRESSIVE FOR GOOD</a>
-        </div>
+        </h5>
 
     </div>
   )

@@ -32,9 +32,40 @@
     width: 40%;
     
 }
+.col {
+    color: red;
+}
+
+.light{
+    color: rgba(0, 0, 0, 0.438);
+}
 
 @media screen and (max-width: 950px) {
     .footer {
-        display: none;
+        display: block;
+        padding: 0px;
+        text-align: center;
     }
+
+    #right{
+        display: flex;
+        width: 20%;
+        text-align: center;
+    }
+
+     #center{
+        display: inline;
+        margin-left: -60px;
+       
+    }
+
+    #left{
+        text-align: center;
+    }
+
+    #logo-img {
+        margin-top: 3px;
+    }
+
+    
 }

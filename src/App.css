@@ -7,6 +7,18 @@
     width: 5%;
 }
 
+.menu{
+    text-align: center;
+   
+    display: block;
+    border: 1px solid #a8a3a327;
+    border-radius: 50%;
+    position: absolute;
+    left: 80%;
+    top: 8%;
+    padding: 2px;
+}
+
 @media screen and (max-width: 650px) {
 .logo {
     display: none;
@@ -36,6 +48,10 @@
 
 #dot {
     margin-left: 1px;
+}
+.menu{
+    display: none;
+    width: 5%;
 }
 
 }

@@ -1,12 +1,13 @@
 import React from 'react'
 import './Logo.css';
-import Office from '../assets/Office.jpg'
+import slack from '../assets/slack.jpg';
+import github from '../assets/github.png'
 
 const Logo = () => {
   return (
     <div className='Logo'>
-       <img src={Office} alt='any' id='logo-img' />
-       <img src={Office} alt='any' id='logo-img' />
+       <img src={slack} alt='any' id='logo-img' />
+       <img src={github} alt='any' id='logo-img' />
     </div>
   )
 }
