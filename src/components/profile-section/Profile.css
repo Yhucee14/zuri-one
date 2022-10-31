@@ -1,10 +1,27 @@
 #profile_img {
     border-radius: 50%;
-    width: 5rem;
-    height: 5rem;
+    width: 6rem;
+    height: 6rem;
 }
 
 .profile-container{
     text-align: center;
    
+}
+
+#slack {
+    display: none;
+}
+
+#twitter a{
+    text-decoration: none;
+}
+
+.name {
+    padding: 0px;
+}
+
+#twitter {
+    padding: 5px;
+    margin-top: -15px;
 }

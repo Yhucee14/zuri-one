@@ -15,7 +15,7 @@ const Footer = () => {
 
         <h5 id='right'> 
         <img src={map} alt='any' id='logo-img' />
-        <a href='#'>INGRESSIVE FOR GOOD</a>
+        <a href='#'>INGRESSIVE <br />FOR GOOD</a>
         </h5>
 
     </div>

@@ -21,14 +21,21 @@
     color: black;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 425px) {
 .btn-cont a{
     padding-bottom: 20px;  
+    font-weight: 400;
     }
-}
 
 .btn-cont a:hover {
-    background: #43434656;
-    color: black;
-    border: 0.5px solid #525151b2;
+        background: #43434656;
+        color: black;
+        border: 0.5px solid #525151b2;
+    }
+
+#pitch {
+   padding: 15px 2px 15px 2px;
+   margin-bottom: 10px;
+}
+
 }

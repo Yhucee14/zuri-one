@@ -1,5 +1,5 @@
 .container{
-    padding: 50px;
+    padding: 100px;
 }
 
 .menu-icons {
@@ -19,7 +19,7 @@
     padding: 2px;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 425px) {
 .logo {
     display: none;
 }
@@ -41,7 +41,7 @@
     border: 1px solid #a8a3a327;
     border-radius: 50%;
     position: absolute;
-    left: 72%;
+    left: 69%;
     top: 15%;
     padding: 2px;
     }

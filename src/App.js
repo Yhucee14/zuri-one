@@ -7,8 +7,6 @@ import Button from './components/Button-links/Button';
 import Logo from './components/logo-cont/Logo';
 import Footer from './components/Footer/Footer';
 
-
-
 function App() {
   return (
     <main className='container'>
@@ -19,8 +17,8 @@ function App() {
       <Logo />
       <Footer />
 
-      <div className='menu-icons'>
-        <BiDotsHorizontalRounded  size={20} color='grey' id='dot'/>
+      <div className='menu-icons' >
+                <BiDotsHorizontalRounded  size={20} color='grey' id='dot'/>
       </div>
 
      <div className='menu'>
