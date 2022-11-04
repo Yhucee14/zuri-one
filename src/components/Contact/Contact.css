@@ -1,6 +1,7 @@
 .form-wrap{
     /* padding: 200px; */
     padding-bottom: 30px;
+    width: 100%;
 }
 
 .name {
@@ -17,34 +18,37 @@
 }
 
 .form-cover {
-    padding: 50px;
+    /* padding: 50px; */
+    width: 60%;
     align-items: center;
     background: white;
-    padding: 200px;
+    /* padding-left: 40px;
+    padding-right: 40px; */
+    margin-left: 20%;
 }
 
-#first-input1 {
+#first_name {
     width: 90%;
     border-radius: 4px;
     padding: 7px;
     margin-top: 5px;
 }
 
-#first-input2 {
+#last_name {
     width: 98%;
     border-radius: 4px;
     padding: 7px;
     margin-top: 5px;
 }
 
-#email-input {
+#email {
     width: 99%;
     padding: 7px;
     border-radius: 5px;
     margin-top: 5px;
 }
 
-#msg {
+#message {
     width: 100%;
     border-radius: 5px;
     margin-top: -5px;
@@ -55,7 +59,8 @@
     width: 100%;
 }
 
-#send {
+#btn_submit {
+    width: 100%;
     text-align: center;
     display: block;
     color: white;
@@ -66,4 +71,10 @@
     background: rgb(10, 83, 218);
     border: 0.2px solid rgba(197, 196, 196, 0.151);
     text-decoration: none;
+}
+
+#btn_submit:hover {
+    color: white;
+    background: rgb(10, 83, 218);
+    border: 1px solid black;
 }
