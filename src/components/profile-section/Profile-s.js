@@ -14,7 +14,8 @@ const Profile = () => {
         </h4>
         <h4 id='slack'>
         Ucee
-        </h4>
+        </h4><br></br>
+
     </div>
   )
 }
