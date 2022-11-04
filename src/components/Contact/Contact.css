@@ -2,6 +2,7 @@
     /* padding: 200px; */
     padding-bottom: 0px;
     width: 100%;
+    padding-top: 100px;
 }
 
 .name {
@@ -107,6 +108,7 @@
         margin-left: 0%;
         width: 90%;
         padding: 15px;
+        
     }
 
     .name {
