@@ -7,7 +7,7 @@ const Contact = () => {
     <div className='form-wrap'> 
     <form className='form-cover'>
     <h1><b>Contact Me.</b></h1>
-    Hi there, contact me to ask me about anything you have in mind. <br></br><br></br><br></br>
+    Hi there, contact me to ask me about anything you have in mind. <br></br><br></br>
       <div className='name'>
         <div className='first'>
         <label for="name">First name </label> <br></br>

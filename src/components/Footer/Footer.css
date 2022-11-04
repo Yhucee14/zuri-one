@@ -94,7 +94,7 @@
        }
 
     #center a{
-        margin-left: -42px;
+        margin-left: -168px;
        }
 
     #left{
@@ -105,12 +105,15 @@
         margin-left: -23px;
        }
 
+    #dot {
+        margin-left: 1px;
+    }
     
 }
 
 @media screen and (max-width: 375px) {
     #center a{
-        margin-left: 2px;
+        margin-left: -120px;
        }
 
        #center{
@@ -123,23 +126,14 @@
 
 }
 
-/* @media screen and (max-width: 550px){
-    .footer {
-        padding: 0px;
-        text-align: center;
-        display: block;
-    }
+@media screen and (max-width: 320px){
 
     #center a{
-         margin-left: -150px;
+         margin-left: -70px;
        }
 
-     #center{
-        display: inline;
-       }
-
-    #right {
-        margin-left: 13px;
+    #dot {
+        margin-left: -2px;
     }
-} */
+} 
 

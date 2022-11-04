@@ -17,12 +17,25 @@
     text-decoration: none;
 }
 
-.name {
+.nomen {
     padding: 0px;
-    text-align: center;
 }
 
 #twitter {
     padding: 5px;
     margin-top: -15px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .nomen {
+        margin-left: 8px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .nomen {
+        margin-left: 8px;
+    }
 }
