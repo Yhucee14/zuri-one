@@ -31,7 +31,7 @@ const Contact = () => {
     <input type="checkbox" value="check" name="check" id="check"/> You Agree to providing your data to Ucee_14 who may contact you. <br></br> <br></br>
 
     <div className='send-cont'>
-        <button href='#' id='btn_submit' title="Click here to to Send Message."> Send Message</button>
+        <button href='#' id='btn__submit' title="Click here to to Send Message."> Send Message</button>
     </div>
     
       
